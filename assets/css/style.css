@@ -1,0 +1,24 @@
+.thumb {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: .4rem;
+    border: 1px solid var(--bs-border-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.thumb-empty { color: #adb5bd; background: #f1f3f5; }
+.thumb-lg { width: 96px; height: 96px; }
+
+.erd-box {
+    border: 2px solid var(--bs-border-color);
+    border-radius: .5rem;
+    overflow: hidden;
+    background: #fff;
+}
+.erd-title { padding: .4rem .75rem; font-weight: 600; font-family: monospace; }
+.erd-box li { padding: .15rem 0; }
+
+.navbar .nav-link.active { text-decoration: underline; text-underline-offset: 6px; }
